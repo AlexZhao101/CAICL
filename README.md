@@ -1,4 +1,4 @@
-遵循https://github.com/fredzzhang/pvic中的步骤安装环境，下载数据库并创建软链接
+遵循 ‘https://github.com/fredzzhang/pvic‘ 中的步骤安装环境，下载数据库并创建软链接
 
 下载H-DETR权重放在checkpoints中：
 https://drive.google.com/file/d/1wge-CC1Fx67EHOSXyHGHvrqvMva2jEkr/view?usp=share_link
@@ -7,8 +7,8 @@ https://drive.google.com/file/d/1wge-CC1Fx67EHOSXyHGHvrqvMva2jEkr/view?usp=share
 https://download.is.tue.mpg.de/download.php?domain=hot&resume=1&sfile=hot-c1.zip
 
 
-#训练
-‘’‘
+# 训练
+‘’‘python
 --backbone
 swin_large
 --drop-path-rate
@@ -27,4 +27,4 @@ outputs/test777
 0.2
 --human-scale
 38
-’‘’
+
