@@ -10,7 +10,8 @@ https://download.is.tue.mpg.de/download.php?domain=hot&resume=1&sfile=hot-c1.zip
 
 
 # 训练
-```python main.py
+```
+  python main.py
   --backbone
   swin_large
   --drop-path-rate
@@ -29,4 +30,27 @@ https://download.is.tue.mpg.de/download.php?domain=hot&resume=1&sfile=hot-c1.zip
   0.2
   --human-scale
   38
+```
+# 验证
+```
+  python main.py
+  --backbone
+  swin_large
+  --drop-path-rate
+  0.5
+  --num-queries-one2one
+  900
+  --num-queries-one2many
+  1500
+  --world-size
+  1
+  --batch-size
+  1
+  --eval
+  --resume
+  outputs/CAIA+HOMD/best.pth
+  --contactalpha
+  0.1
+‵‵`
+
 
