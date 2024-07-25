@@ -10,7 +10,7 @@ https://download.is.tue.mpg.de/download.php?domain=hot&resume=1&sfile=hot-c1.zip
 
 
 # 训练
-‘’‘python
+```python main.py
   --backbone
   swin_large
   --drop-path-rate
